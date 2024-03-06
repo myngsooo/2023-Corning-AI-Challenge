@@ -1,6 +1,6 @@
 OPENAI_API_KEY=''
 
-python main.py \
+python gen_rag_dataset.py \
     --model_path_or_name gpt-3.5-turbo-instruct \
     --input_path ./paperDB \
     --output_path ./dataset.jsonl \
